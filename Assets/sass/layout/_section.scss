@@ -1,0 +1,42 @@
+section{
+    margin: 0px;
+    background-color: #c2c0c0a2;
+.orange{
+    background-color: #EF6D58;
+    
+    display: flex;
+    position: relative;
+    left:175px ;
+    flex-direction: row ;
+    align-items: center;
+    width: 1170px;
+    height: 544px;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+
+
+    }
+    button{position: relative;
+        left: -650px;
+        width: 154px;
+        height: 48px;
+        border-radius: 6px;
+      
+    }
+    
+}
+
+@media screen and (min-width: 1352px){
+    .orange{
+        background-color: #EF6D58;
+        background-color: #EF6D58;
+        display: flex;
+        position: relative;
+        flex-direction: column-reverse;
+        align-items: center;
+        color: white;
+        font-size: 20px;
+    
+}
+}

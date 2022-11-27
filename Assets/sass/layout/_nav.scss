@@ -1,0 +1,75 @@
+nav {
+
+    background-color: #28293E;
+    margin: 0px;
+
+
+    div {
+        max-width: 1040px;
+        height: 67px;
+        margin: 0 auto;
+        padding: 0 25px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .Navbar-text {
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 100px;
+            margin-right: 45px;
+            font-weight: 400px;
+            font-size: 15px;
+            line-height: 28px;
+
+            color: white;
+
+
+        }
+    }
+
+    .menuicon {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 860px) {
+    nav {
+
+        background-color: #28293E;
+        margin: 0px;
+
+
+        div {
+            max-width: 1040px;
+            height: 67px;
+            margin: 0 auto;
+            padding: 0 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .Contactbtn1 {
+            display: none;
+        }
+
+        .Navbar-text {
+
+            ul {
+                display: none;
+            }
+        }
+
+        .menuicon {
+            display: flex;
+            color: azure;
+            justify-content: flex-end;
+        }
+    }
+}

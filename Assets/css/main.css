@@ -1,0 +1,234 @@
+@import url("https://fonts.cdnfonts.com/css/graphik");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,500;1,500&family=Source+Code+Pro:wght@200&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul, li, a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+* {
+  font-family: "Graphik", sans-serif;
+}
+
+.Container div h1, .Container div button {
+  font-family: "Epilogue", sans-serif;
+  font-family: "Source Code Pro", monospace;
+}
+
+.Contactbtn1 {
+  background-color: transparent;
+  color: white;
+  width: 138px;
+  height: 48px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.295743);
+}
+
+footer {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(194, 192, 192, 0.6352941176);
+  display: flex;
+  position: relative;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  height: 400px;
+}
+footer .logo {
+  position: relative;
+  top: 75px;
+  left: -33px;
+}
+footer div {
+  position: relative;
+  top: 60px;
+  left: 20px;
+}
+footer div p {
+  color: red;
+}
+footer div li a {
+  color: black;
+}
+
+.main-site {
+  background-color: #28293E;
+  height: 400px;
+}
+.main-site h1 {
+  font-weight: 700;
+  font-size: 74px;
+  line-height: 260px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  font-family: "Graphik", sans-serif;
+}
+.main-site h3 {
+  font-style: normal;
+  line-height: -40px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: gray;
+  font-family: "Graphik", sans-serif;
+  font-size: 24px;
+}
+
+.mini-navbar {
+  background-color: #F2F2F2;
+  justify-content: center;
+  align-items: center;
+}
+.mini-navbar ul {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-right: 467px;
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 28px;
+  color: white;
+  flex-direction: row-reverse;
+}
+.mini-navbar ul li {
+  text-align: center;
+}
+.mini-navbar ul li a {
+  color: black;
+}
+
+@media screen and (max-width: 1172px) {
+  .mini-navbar ul {
+    display: none;
+  }
+}
+.Container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: rgba(194, 192, 192, 0.6352941176);
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.Container div {
+  width: 370px;
+  height: 416px;
+  margin: 40px;
+  background-color: lightblue;
+  border-radius: 19px;
+}
+.Container h1 {
+  position: relative;
+  top: -129px;
+  left: 48px;
+  right: 21px;
+  font-size: 40px;
+}
+.Container button {
+  position: relative;
+  top: -129px;
+  left: 48px;
+  right: 21px;
+  width: 102px;
+  height: 45px;
+  border-radius: 19px;
+  border: none;
+}
+
+nav {
+  background-color: #28293E;
+  margin: 0px;
+}
+nav div {
+  max-width: 1040px;
+  height: 67px;
+  margin: 0 auto;
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .Navbar-text ul {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  margin-right: 45px;
+  font-weight: 400px;
+  font-size: 15px;
+  line-height: 28px;
+  color: white;
+}
+nav .menuicon {
+  display: none;
+}
+
+@media screen and (max-width: 860px) {
+  nav {
+    background-color: #28293E;
+    margin: 0px;
+  }
+  nav div {
+    max-width: 1040px;
+    height: 67px;
+    margin: 0 auto;
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  nav .Contactbtn1 {
+    display: none;
+  }
+  nav .Navbar-text ul {
+    display: none;
+  }
+  nav .menuicon {
+    display: flex;
+    color: azure;
+    justify-content: flex-end;
+  }
+}
+section {
+  margin: 0px;
+  background-color: rgba(194, 192, 192, 0.6352941176);
+}
+section .orange {
+  background-color: #EF6D58;
+  display: flex;
+  position: relative;
+  left: 175px;
+  flex-direction: row;
+  align-items: center;
+  width: 1170px;
+  height: 544px;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+}
+section button {
+  position: relative;
+  left: -650px;
+  width: 154px;
+  height: 48px;
+  border-radius: 6px;
+}
+
+@media screen and (min-width: 1352px) {
+  .orange {
+    background-color: #EF6D58;
+    background-color: #EF6D58;
+    display: flex;
+    position: relative;
+    flex-direction: column-reverse;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=main.css.map */

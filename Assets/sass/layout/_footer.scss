@@ -1,0 +1,35 @@
+footer {
+    margin: 0;
+    padding: 0;
+    background-color: #c2c0c0a2;
+    display: flex;
+    position: relative;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    height: 400px;
+
+
+    .logo {
+        position: relative;
+        top: 75px;
+        left: -33px;
+    }
+
+    div {
+        position: relative;
+        top: 60px;
+        left: 20px;
+
+
+        p {
+            color: red;
+        }
+
+        li {
+            a{
+            color: black;
+        }
+        }
+    }
+}
